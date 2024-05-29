@@ -42,7 +42,7 @@ String[] languages = {"Java", "Python", "JavaScript", "C++", "C#", "Swift", "Kot
 void setup() {
     size(800, 600);
     frameRate(FPS);
-    font = createFont("HG創英角ﾎﾟｯﾌﾟ体", 32);
+    font = createFont("Bahnschrift", 32);
     textFont(font);
     menu = new Menu();
 }
