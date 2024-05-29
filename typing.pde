@@ -33,10 +33,10 @@ HashMap<String, Boolean> languagesCheck = new HashMap<String, Boolean>(){
         put("Haskell", false);
         put("TypeScript", false);
         put("C", false);
-        put("Brainfuck", false)
+        put("Brainfuck", false);
     }
 };
-String[] languages = {"Java", "Python", "JavaScript", "C++", "C#", "Swift", "Kotlin", "Go", "Haskell", "TypeScript", "C", "brainfuck"};
+String[] languages = {"Java", "Python", "JavaScript", "C++", "C#", "Swift", "Kotlin", "Go", "Haskell", "TypeScript", "C", "Brainfuck"};
 
 
 void setup() {
