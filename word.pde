@@ -26,11 +26,11 @@ class Word {
     void display() {
         fill(0);
         textSize(24);
-        textAlign(CENTER);
-        text(translation, x, y - 40);
+        textAlign(LEFT);
+        text(translation, x - 200, y - 40);
         // println(translation);
         textSize(32);
-        text(text, x, y);
+        text(text, x - 200, y);
         textAlign(LEFT);
         timeBar.display(x, y + 70);
     }

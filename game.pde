@@ -51,9 +51,9 @@ class Game {
         textSize(40);
         text("Score: " + game.score, 30, 50);
         text("Time: " + time / FPS, 30, 100);
-        textAlign(CENTER);
+        textAlign(LEFT);
         textSize(32);
-        text(game.currentInput, width/2, height/2);
+        text(game.currentInput, width/2 - 200, height/2);
         textAlign(LEFT);
     }
 
