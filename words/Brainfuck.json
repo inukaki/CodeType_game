@@ -1,0 +1,17 @@
+[
+    {
+        "word": "[-]>[-]<[>++++++++++<-[>.-<-]]",
+        "score": 34,
+        "translation": "Brainfuck"
+    },
+    {
+        "word": "++++[>++++<-]>[<+++++>-]<.",
+        "score": 30,
+        "translation": "Brainfuck"
+    },
+    {
+        "word": "++>+++++[<++++++++>-]<.",
+        "score": 27,
+        "translation": "Brainfuck"
+    }
+]
