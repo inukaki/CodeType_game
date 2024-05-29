@@ -5,17 +5,17 @@ class Menu {
 
 
     Menu() {
-        singleX = width / 2 - 50;
-        singleY = height / 2 - 25;
-        singleWidth = 100;
+        singleWidth = 150;
         singleHeight = 50;
-        multiX = width / 2 - 50;
+        singleX = width / 2 - singleWidth / 2;
+        singleY = height / 2 - 25;
+        multiX = width / 2 - singleWidth / 2;
         multiY = height / 2 + 50;
-        multiWidth = 100;
+        multiWidth = 150;
         multiHeight = 50;
         singleButton = new Button(singleX, singleY, singleWidth, singleHeight, "Single");
         multiButton = new Button(multiX, multiY, multiWidth, multiHeight, "Multi");
-        settingButton = new Button(width / 2 - 50 , height / 2 +125, 100, 50, "Setting");
+        settingButton = new Button(width / 2 - multiWidth / 2 , height / 2 +125, 150, 50, "Setting");
     }
 
     void display() {
