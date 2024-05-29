@@ -17,6 +17,8 @@ boolean inLobby = false;
 boolean inResult = false;
 boolean inSetting = false;
 
+String playerName = "";
+
 // プログラミング言語とbooleanの組のデータ
 HashMap<String, Boolean> languagesCheck = new HashMap<String, Boolean>(){
     {

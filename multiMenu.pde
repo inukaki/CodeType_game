@@ -13,7 +13,7 @@ class MultiMenu{
         new RoomData(4, 0, false, 2, new ArrayList<PlayerData>()),
         new RoomData(5, 0, false, 2, new ArrayList<PlayerData>())
      };
-    String name = "";
+    String name = playerName;
 
     MultiMenu(){
         buttons = new Button[6];
@@ -141,11 +141,13 @@ class MultiMenu{
         if(key == BACKSPACE){
             if(name.length() > 0){
                 name = name.substring(0, name.length()-1);
+                playerName = name;
             }
         }else if(key == ENTER){
             // println("Enter");
         }else{
             name += key;
+            playerName = name;
         }
     }
 }
