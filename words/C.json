@@ -1,0 +1,22 @@
+[
+    {   
+        "word": "printf(\"Hello, World!\");",
+        "score": 24,
+        "translation": "C言語"
+    },
+    {
+        "word": "scanf(\"%d\", &a);",
+        "score": 16,
+        "translation": "C言語"
+    },
+    {
+        "word": "int arr[5] = {1, 2, 3, 4, 5};",
+        "score": 31,
+        "translation": "C言語"
+    },
+    {
+        "word": "while (1) { break; }",
+        "score": 22,
+        "translation": "C言語"
+    }
+]

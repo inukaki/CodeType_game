@@ -1,0 +1,22 @@
+[
+    {
+        "word": "print(\"Hello, World!\")",
+        "score": 21,
+        "translation": "Swift"
+    },
+    {
+        "word": "var arr = [1, 2, 3, 4, 5]",
+        "score": 26,
+        "translation": "Swift"
+    },
+    {
+        "word": "for i in 0..<5 { }",
+        "score": 17,
+        "translation": "Swift"
+    },
+    {
+        "word": "while true { break }",
+        "score": 20,
+        "translation": "Swift"
+    }
+]

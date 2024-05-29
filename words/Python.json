@@ -1,0 +1,22 @@
+[
+    {
+        "word": "print(\"Hello, World!\")",
+        "score": 23,
+        "translation": "Python"
+    },
+    {
+        "word": "arr = [1, 2, 3, 4, 5]",
+        "score": 22,
+        "translation": "Python"
+    },
+    {
+        "word": "for i in range(5):",
+        "score": 19,
+        "translation": "Python"
+    },
+    {
+        "word": "while True: break",
+        "score": 19,
+        "translation": "Python"
+    }
+]

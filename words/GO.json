@@ -1,0 +1,22 @@
+[
+    {
+        "word": "fmt.Println(\"Hello, World!\")",
+        "score": 27,
+        "translation": "Go"
+    },
+    {
+        "word": "var arr = []int{1, 2, 3}",
+        "score": 26,
+        "translation": "Go"
+    },
+    {
+        "word": "for i := 0; i < 5; i++",
+        "score": 21,
+        "translation": "Go"
+    },
+    {
+        "word": "for true { break }",
+        "score": 19,
+        "translation": "Go"
+    }
+]

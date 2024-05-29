@@ -1,0 +1,22 @@
+[
+    {
+        "word": "cout << \"Hello, World!\" << endl;",
+        "score": 23,
+        "translation": "C++"
+    },
+    {
+        "word": "for(int i=0; i<n; i++)",
+        "score": 21,
+        "translation": "C++"
+    },
+    {
+        "word": "int arr[5] = {1, 2, 3, 4, 5};",
+        "score": 31,
+        "translation": "C++"
+    },
+    {
+        "word": "while (1) { break; }",
+        "score": 22,
+        "translation": "C++"
+    }
+]

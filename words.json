@@ -1,0 +1,227 @@
+[
+    {
+        "word": "apple",
+        "score": 5,
+        "translation": "りんご"
+    },
+    {
+        "word": "banana",
+        "score": 6,
+        "translation": "バナナ"
+    },
+    {
+        "word": "cherry",
+        "score": 6,
+        "translation": "さくらんぼ"
+    },
+    {
+        "word": "grapes",
+        "score": 6,
+        "translation": "ぶどう"
+    },
+    {
+        "word": "orange",
+        "score": 6,
+        "translation": "オレンジ"
+    },
+    {
+        "word": "peach",
+        "score": 5,
+        "translation": "もも"
+    },
+    {
+        "word": "pear",
+        "score": 4,
+        "translation": "なし"
+    },
+    {
+        "word": "plum",
+        "score": 4,
+        "translation": "プラム"
+    },
+    {
+        "word": "melon",
+        "score": 5,
+        "translation": "メロン"
+    },
+    {
+        "word": "mango",
+        "score": 5,
+        "translation": "マンゴー"
+    },
+    {
+        "word": "papaya",
+        "score": 6,
+        "translation": "パパイヤ"
+    },
+    {
+        "word": "kiwi",
+        "score": 4,
+        "translation": "キウイ"
+    },
+    {
+        "word": "berry",
+        "score": 5,
+        "translation": "ベリー"
+    },
+    {
+        "word": "guava",
+        "score": 5,
+        "translation": "グアバ"
+    },
+    {
+        "word": "durian",
+        "score": 6,
+        "translation": "ドリアン"
+    },
+    {
+        "word": "jackfruit",
+        "score": 9,
+        "translation": "ジャックフルーツ"
+    },
+    {
+        "word": "lychee",
+        "score": 6,
+        "translation": "ライチ"
+    },
+    {
+        "word": "avocado",
+        "score": 7,
+        "translation": "アボカド"
+    },
+    {
+        "word": "starfruit",
+        "score": 9,
+        "translation": "スターフルーツ"
+    },
+    {
+        "word": "watermelon",
+        "score": 10,
+        "translation": "スイカ"
+    },
+    {
+        "word": "blueberry",
+        "score": 9,
+        "translation": "ブルーベリー"
+    },
+    {
+        "word": "raspberry",
+        "score": 9,
+        "translation": "ラズベリー"
+    },
+    {
+        "word": "blackberry",
+        "score": 10,
+        "translation": "ブラックベリー"
+    },
+    {
+        "word": "pineapple",
+        "score": 9,
+        "translation": "パイナップル"
+    },
+    {
+        "word": "pomegranate",
+        "score": 11,
+        "translation": "ザクロ"
+    },
+    {
+        "word": "cantaloupe",
+        "score": 10,
+        "translation": "カンタロープ"
+    },
+    {
+        "word": "passionfruit",
+        "score": 12,
+        "translation": "パッションフルーツ"
+    },
+    {
+        "word": "tangerine",
+        "score": 9,
+        "translation": "タンジェリン"
+    },
+    {
+        "word": "cranberry",
+        "score": 9,
+        "translation": "クランベリー"
+    },
+    {
+        "word": "nectarine",
+        "score": 9,
+        "translation": "ネクタリン"
+    },
+    {
+        "word": "mulberry",
+        "score": 8,
+        "translation": "桑の実"
+    },
+    {
+        "word": "honeydew",
+        "score": 8,
+        "translation": "ハニーデュー"
+    },
+    {
+        "word": "elderberry",
+        "score": 10,
+        "translation": "エルダーベリー"
+    },
+    {
+        "word": "persimmon",
+        "score": 9,
+        "translation": "柿"
+    },
+    {
+        "word": "kiwifruit",
+        "score": 9,
+        "translation": "キウイフルーツ"
+    },
+    {
+        "word": "clementine",
+        "score": 10,
+        "translation": "クレメンタイン"
+    },
+    {
+        "word": "grapefruit",
+        "score": 10,
+        "translation": "グレープフルーツ"
+    },
+    {
+        "word": "strawberry",
+        "score": 10,
+        "translation": "イチゴ"
+    },
+    {
+        "word": "dragonfruit",
+        "score": 11,
+        "translation": "ドラゴンフルーツ"
+    },
+    {
+        "word": "boysenberry",
+        "score": 11,
+        "translation": "ボイセンベリー"
+    },
+    {
+        "word": "pummelo",
+        "score": 7,
+        "translation": "ブンタン"
+    },
+    {
+        "word": "currant",
+        "score": 7,
+        "translation": "カラント"
+    },
+    {
+        "word": "marionberry",
+        "score": 11,
+        "translation": "マリオンベリー"
+    },
+    {
+        "word": "plantain",
+        "score": 8,
+        "translation": "プランテン"
+    },
+    {
+        "word": "miracle fruit",
+        "score": 12,
+        "translation": "ミラクルフルーツ"
+    }
+]

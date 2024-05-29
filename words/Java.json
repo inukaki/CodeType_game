@@ -1,0 +1,22 @@
+[
+    {
+        "word": "System.out.println(\"Hello, World!\");",
+        "score": 33,
+        "translation": "Java"
+    },
+    {
+        "word": "int[] arr = new int[5];",
+        "score": 25,
+        "translation": "Java"
+    },
+    {
+        "word": "for(int i=0; i<5; i++)",
+        "score": 21,
+        "translation": "Java"
+    },
+    {
+        "word": "while (true) { break; }",
+        "score": 25,
+        "translation": "Java"
+    }
+]

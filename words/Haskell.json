@@ -1,0 +1,22 @@
+[
+    {
+        "word": "main = putStrLn \"Hello, World!\"",
+        "score": 30,
+        "translation": "Haskell"
+    },
+    {
+        "word": "let arr = [1, 2, 3, 4, 5]",
+        "score": 26,
+        "translation": "Haskell"
+    },
+    {
+        "word": "forM_ [0..4] $ \\i -> do",
+        "score": 27,
+        "translation": "Haskell"
+    },
+    {
+        "word": "when (True) $ return ()",
+        "score": 26,
+        "translation": "Haskell"
+    }
+]

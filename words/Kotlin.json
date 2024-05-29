@@ -1,0 +1,22 @@
+[
+    {
+        "word": "println(\"Hello, World!\")",
+        "score": 24,
+        "translation": "Kotlin"
+    },
+    {
+        "word": "val arr = arrayOf(1, 2, 3, 4, 5)",
+        "score": 33,
+        "translation": "Kotlin"
+    },
+    {
+        "word": "for (i in 0..4) { }",
+        "score": 19,
+        "translation": "Kotlin"
+    },
+    {
+        "word": "while (true) { break }",
+        "score": 25,
+        "translation": "Kotlin"
+    }
+]

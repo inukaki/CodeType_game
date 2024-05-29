@@ -1,0 +1,22 @@
+[
+    {
+        "word": "console.log(\"Hello, World!\");",
+        "score": 28,
+        "translation": "TypeScript"
+    },
+    {
+        "word": "let arr: number[] = [1, 2, 3, 4, 5];",
+        "score": 37,
+        "translation": "TypeScript"
+    },
+    {
+        "word": "for(let i=0; i<5; i++)",
+        "score": 23,
+        "translation": "TypeScript"
+    },
+    {
+        "word": "while(true) { break; }",
+        "score": 24,
+        "translation": "TypeScript"
+    }
+]

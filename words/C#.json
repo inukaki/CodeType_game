@@ -1,0 +1,22 @@
+[
+    {
+        "word": "Console.WriteLine(\"Hello, World!\");",
+        "score": 34,
+        "translation": "C#"
+    },
+    {
+        "word": "int[] arr = new int[5];",
+        "score": 25,
+        "translation": "C#"
+    },
+    {
+        "word": "for(int i=0; i<5; i++)",
+        "score": 21,
+        "translation": "C#"
+    },
+    {
+        "word": "while (true) { break; }",
+        "score": 25,
+        "translation": "C#"
+    }
+]
