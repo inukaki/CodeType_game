@@ -55,25 +55,10 @@ class MultiGame extends Game {
     void endGame() {
         // super.endGame();
         ArrayList<PlayerData> players = roomData[roomNumber].getPlayers();
-        result = new MultiResult(players);
-        println(players.size());
-        for(int i = 0; i < players.size(); i++){
-            exitRoom(roomNumber, players.get(i).getName());
-            println("Player " + players.get(i).getName() + " has left the room");
-        }
-        isNotPlaying(roomNumber);
+        result = new MultiResult(players, roomNumber);
+        // println(players.size());
         inGame = false;
         inResult = true;
-    }
-
-    void exitRoom(int roomNumber, String playerName){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/exit" + "/" + roomNumber + "/" + playerName);
-        post.send();
-    }
-    
-    void isNotPlaying(int roomNumber){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/isPlaying" + "/" + roomNumber + "/false");
-        post.send();
     }
 
     void setScore(int roomNumber, String playerName, int score){

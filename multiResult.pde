@@ -1,9 +1,11 @@
 class MultiResult extends Result{
     ArrayList<PlayerData> players;
+    int roomNumber;
 
-    MultiResult(ArrayList<PlayerData> players){
+    MultiResult(ArrayList<PlayerData> players, int roomNumber){
         super(0);
         this.players = players;
+        this.roomNumber = roomNumber;
     }
 
     @Override
@@ -17,5 +19,26 @@ class MultiResult extends Result{
         }
         textAlign(LEFT);
         topButton.display(false);
+    }
+    @Override
+    void mouseClicked(){
+        super.mouseClicked();
+        if(topButton.checkClick(mouseX, mouseY)){
+            for(int i = 0; i < players.size(); i++){
+                exitRoom(roomNumber, players.get(i).getName());
+                println("Player " + players.get(i).getName() + " has left the room");
+            }
+            isNotPlaying(roomNumber);
+        }
+    }
+
+    void exitRoom(int roomNumber, String playerName){
+        PostRequest post = new PostRequest("http://localhost:" + PORT + "/exit" + "/" + roomNumber + "/" + playerName);
+        post.send();
+    }
+    
+    void isNotPlaying(int roomNumber){
+        PostRequest post = new PostRequest("http://localhost:" + PORT + "/isPlaying" + "/" + roomNumber + "/false");
+        post.send();
     }
 }
