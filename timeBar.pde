@@ -12,9 +12,9 @@ class TimeBar{
     }
     void display(float x, float y){
         fill(0, 0, 0);
-        rect(x - maxWidth/2, y, maxWidth, height);
+        rect(x, y, maxWidth, height);
         fill(255, 0, 0);
-        rect(x - maxWidth/2, y, width, height);
+        rect(x, y, width, height);
     }
     void update(){
         time--;

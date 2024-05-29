@@ -32,7 +32,7 @@ class Word {
         textSize(32);
         text(text, x - 200, y);
         textAlign(LEFT);
-        timeBar.display(x, y + 70);
+        timeBar.display(x - 200, y + 70);
     }
 
     boolean checkMatch(String input) {
