@@ -23,7 +23,7 @@ class Menu {
         fill(0);
         textAlign(CENTER, CENTER);
         textSize(48);
-        text("Program Type", width / 2, height / 4);
+        text("Code Type", width / 2, height / 4);
         
         // ボタンを描画
         singleButton.display(false);
