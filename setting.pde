@@ -5,7 +5,7 @@ class Setting {
     Setting() {
         // ボタンを４＊３の形で配置
         for (int i = 0; i < languageButtons.length; i++) {
-            languageButtons[i] = new Button(100 + 150 * (i % 4), 170 + 120 * (i / 4), 150, 50, languages[i]);
+            languageButtons[i] = new Button(100 + 150 * (i % 4), 170 + 100 * (i / 4), 150, 50, languages[i]);
         }
     }
 
@@ -23,6 +23,9 @@ class Setting {
         for (int i = 0; i < languageButtons.length; i++) {
             languageButtons[i].display(languagesCheck.get(languages[i]));
         }
+        textSize(32);
+        textAlign(LEFT);
+        text("ServerIP:" + IP, 200, 550);
     }
 
     void mouseClicked() {
@@ -40,5 +43,18 @@ class Setting {
                 else languagesCheck.put(languages[i], true);
             }
         }
+    }
+    
+    void keyPressed() {
+        if (key == BACKSPACE) {
+            if (IP.length() > 0) {
+                IP = IP.substring(0, IP.length() - 1);
+            }
+        } else if (key == ENTER) {
+            // 何もしない
+        } else {
+            IP += key;
+        }
+        URL = "http://" + IP + ":" + PORT;
     }
 }

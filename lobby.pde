@@ -75,16 +75,16 @@ class Lobby{
     }
 
     void exitRoom(int roomNumber, String playerName){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/exit" + "/" + roomNumber + "/" + playerName);
+        PostRequest post = new PostRequest(URL + "/exit" + "/" + roomNumber + "/" + playerName);
         post.send();
 
     }
     void isPlaying(int roomNumber){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/isPlaying" + "/" + roomNumber + "/" + "true");
+        PostRequest post = new PostRequest(URL + "/isPlaying" + "/" + roomNumber + "/" + "true");
         post.send();
     }
     private boolean getRoomData(){
-        GetRequest get = new GetRequest("http://localhost:" + PORT + "/rooms");
+        GetRequest get = new GetRequest(URL + "/rooms");
         get.send();
         // println(get.getContent());
 

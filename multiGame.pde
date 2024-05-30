@@ -62,12 +62,12 @@ class MultiGame extends Game {
     }
 
     void setScore(int roomNumber, String playerName, int score){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/score" + "/" + roomNumber + "/" + playerName + "/" + score);
+        PostRequest post = new PostRequest(URL + "/score" + "/" + roomNumber + "/" + playerName + "/" + score);
         post.send();
     }
     
     private boolean getRoomData(){
-        GetRequest get = new GetRequest("http://localhost:" + PORT + "/rooms");
+        GetRequest get = new GetRequest(URL + "/rooms");
         get.send();
         // println(get.getContent());
 

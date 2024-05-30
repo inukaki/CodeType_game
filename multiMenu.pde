@@ -64,14 +64,14 @@ class MultiMenu{
         }
     }
     void enterRoom(int roomNumber, String playerName){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/enter" + "/" + roomNumber + "/" + playerName);
+        PostRequest post = new PostRequest(URL + "/enter" + "/" + roomNumber + "/" + playerName);
         post.send();
         roomData[roomNumber].players.add(new PlayerData(playerName, roomNumber, 0));
         roomData[roomNumber].playerCount++;
     }
 
     private boolean getRoomData(){
-        GetRequest get = new GetRequest("http://localhost:" + PORT + "/rooms");
+        GetRequest get = new GetRequest(URL + "/rooms");
         get.send();
         // println(get.getContent());
 

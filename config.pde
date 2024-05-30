@@ -19,7 +19,7 @@ boolean inSetting = false;
 public final int FPS = 60;
 public final int PORT = 8025;
 public String IP ="10.2.253.237";
-public String URL = "http:/" + IP + ":" + PORT + "/";
+public String URL = "http://" + IP + ":" + PORT;
 
 String playerName = "";
 PFont font;

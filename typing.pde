@@ -29,6 +29,7 @@ void draw() {
 void keyPressed() {
   if(inGame) game.keyPressed();
   else if(inMultiMenu) multiMenu.keyPressed();
+  else if(inSetting) setting.keyPressed();
 }
 
 void mouseClicked() {

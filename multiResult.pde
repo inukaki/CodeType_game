@@ -33,12 +33,12 @@ class MultiResult extends Result{
     }
 
     void exitRoom(int roomNumber, String playerName){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/exit" + "/" + roomNumber + "/" + playerName);
+        PostRequest post = new PostRequest(URL + "/exit" + "/" + roomNumber + "/" + playerName);
         post.send();
     }
     
     void isNotPlaying(int roomNumber){
-        PostRequest post = new PostRequest("http://localhost:" + PORT + "/isPlaying" + "/" + roomNumber + "/false");
+        PostRequest post = new PostRequest(URL + "/isPlaying" + "/" + roomNumber + "/false");
         post.send();
     }
 }
