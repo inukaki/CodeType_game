@@ -95,7 +95,7 @@ class Game {
         for(int i = 0; i < languages.length; i++) {
             if (languagesCheck.get(languages[i]) || count == 0) {
                 if (choice == 0) {
-                    JSONArray words = loadJSONArray("./words/" + languages[i] + ".json");
+                    JSONArray words = loadJSONArray("../words/" + languages[i] + ".json");
                     int length = words.size();
                     JSONObject word = words.getJSONObject((int) random(length));
                     String text = word.getString("word");
